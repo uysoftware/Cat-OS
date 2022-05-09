@@ -110,6 +110,7 @@ def catos():
         btn1=tkinter.Button(window,text='                start              ',command=btn01)
         btn1.pack()  
         lb1=tkinter.Label(window,text="CatOS\n Copyright©保留所有权利")
+        
         lb1.pack()
         btn1.place(x=100,y=750)
         bt1.place(x=100,y=100)
@@ -121,7 +122,8 @@ def catos():
 root.geometry("2000x1000")
     e=tkinter.Label(root,text="欢迎使用CatOS V.1.0系统")
     e.pack()
-    esktop2=tkinter.Button(root,text="登录Administrator",command=allCode)   
+    esktop2=tkinter.Button(root,text="登录Administrator",command=allCode)
+   
     esktop2.pack()
     root.mainloop()
 
