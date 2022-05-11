@@ -12,11 +12,11 @@ def catos():
             dyklb1212=tkinter.Label(window1,text="Welcome to use.")
             dyklb1212.pack()
         window = tkinter.Tk()
-        window.title("M106模拟系统")
+        window.title("CatOS1")
         window.geometry("2000x1000")
         def WordTXT():
             window = tkinter.Tk()
-            window.title("Word Sky(暂时未开通)")
+            window.title("Word Sky(Unsupported)")
             window.geometry("500x500")
         def shut():
                 dyjk2=tkinter.Tk()
