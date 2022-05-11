@@ -119,7 +119,7 @@ def catos():
         window.mainloop()
     root = tkinter.Tk()
     root.title("CatOS")
-root.geometry("2000x1000")
+    root.geometry("2000x1000")
     e=tkinter.Label(root,text="欢迎使用CatOS V.1.0系统")
     e.pack()
     esktop2=tkinter.Button(root,text="登录Administrator",command=allCode)
